@@ -1,0 +1,11 @@
+html,
+body,
+#root {
+   margin: 0;
+   font-size: 18px;
+   line-height: 24px;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   height: 100vh;
+}

@@ -1,0 +1,14 @@
+.footer {
+   background-color: #ee6e73;
+   color: #fff;
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+   &__copyright {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      padding: 15px;
+      margin: 0 auto;
+   }
+}
