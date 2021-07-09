@@ -4,10 +4,10 @@ import axios from "axios";
 
 import "./App.css";
 
-function App() {
+const App = () => {
    const [users, setUsers] = useState(null);
-
-   async function getUser() {
+   console.log(users)
+   const getUser = async () => {
       try {
          const response = await axios.get(
             "https://jsonplaceholder.typicode.com/users"
@@ -20,10 +20,9 @@ function App() {
 
    useEffect(() => {
       getUser();
-      console.log(users);
-   }, [users]);
+   }, []);
 
-   return <div className="App"></div>;
+   return <div className="App"/>;
 }
 
 export default App;
